@@ -6,16 +6,16 @@ The app also visualizes mood trends over time with a chart and supports a fully 
 
 ---
 
-## ✨ Features
-- ➕ Add / Edit / Delete mood entries  
-- 💾 Data persistence with localStorage  
-- 📊 Mood Trends chart (Chart.js + react-chartjs-2)  
-- 📱 Responsive, mobile-first layout (TailwindCSS)  
-- 🔔 Modal dialogs & confirmation popup before delete  
+## Features
+- Add / Edit / Delete mood entries  
+- Data persistence with localStorage  
+- Mood Trends chart (Chart.js + react-chartjs-2)  
+- Responsive, mobile-first layout (TailwindCSS)  
+- Modal dialogs & confirmation popup before delete  
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - [Next.js 15 (App Router)](https://nextjs.org/)  
 - [TypeScript](https://www.typescriptlang.org/)  
 - [Zustand](https://github.com/pmndrs/zustand) (state management)  
@@ -24,7 +24,7 @@ The app also visualizes mood trends over time with a chart and supports a fully 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```src/
 ├─ app/ # Next.js pages (/ , /add , /edit/[id])
 ├─ components/ # Reusable components (Modal, MoodForm, MoodCard, etc.)
@@ -33,7 +33,7 @@ The app also visualizes mood trends over time with a chart and supports a fully 
 └─ utils/ # Helper utilities (uuid generator)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 1. **Clone repo**
    ```bash
    git clone https://github.com/yourusername/mood-tracker.git
