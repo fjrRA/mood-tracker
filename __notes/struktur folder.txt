@@ -1,0 +1,40 @@
+Struktur folder mood-tracker
+
+|- __notes
+|- .next
+|- node_modules
+|- public
+|- src
+   |- app
+      |- add
+         |- page.tsx
+      |- edit
+         |- [id]
+            |- page.tsx
+      |- favicon.ico
+      |- globals.css
+      |- layout.tsx
+      |- page.tsx
+   |- components
+      |- ConfirmDialog.tsx
+      |- Modal.tsx
+      |- MoodCard.tsx
+      |- MoodChart.tsx
+      |- MoodForm.tsx
+      |- Navbar.tsx
+   |- store
+      |- useMoodStore.ts
+   |- types
+      |- mood.ts
+   |- utils
+      |- id.ts
+|- .gitignore
+|- eslint.config.mjs
+|- next-env.d.ts
+|- next.config.ts
+|- package-lock.json
+|- package.json
+|- postcss.config.mjs
+|- README.md
+|- tailwind.config.ts
+|- tsconfig.json
